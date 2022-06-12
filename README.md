@@ -49,7 +49,8 @@ Bạn sẽ nhận được dòng chữ User page khi truy cập vào địa ch�
 
 ### Quy tắc dùng tham số
 Cú pháp dùng tham số là <kiểu_dũ_liệu:tên_biến>
- Ví dụ:
+
+Ví dụ:
  ```python
 @app.route('/post/<int:post_id>')
 def show_post(post_id):
@@ -61,6 +62,7 @@ def show_post(post_id):
 Để sử dụng Methods, ta import request
 
 Mặc định, một request sẽ sử dụng method GET nếu không chỉ định
+
 Ví dụ:
 
 ```python
